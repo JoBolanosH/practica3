@@ -1,0 +1,30 @@
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/psych-5.2.6/ext/psych
+/home/vadak/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-9h9tug sitelibdir\=./.gem.20250630-66391-9h9tug clean
+cd libyaml && make clean
+/bin/sh: 1: cd: can't cd to libyaml
+make: [Makefile:281: clean-so] Error 2 (ignored)
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-9h9tug sitelibdir\=./.gem.20250630-66391-9h9tug
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-9h9tug sitelibdir\=./.gem.20250630-66391-9h9tug install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20250630-66391-9h9tug
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-9h9tug sitelibdir\=./.gem.20250630-66391-9h9tug clean
+cd libyaml && make clean
+/bin/sh: 1: cd: can't cd to libyaml
+make: [Makefile:281: clean-so] Error 2 (ignored)

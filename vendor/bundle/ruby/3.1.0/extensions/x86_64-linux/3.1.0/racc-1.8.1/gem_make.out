@@ -1,0 +1,18 @@
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/home/vadak/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-xjbahd sitelibdir\=./.gem.20250630-66391-xjbahd clean
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-xjbahd sitelibdir\=./.gem.20250630-66391-xjbahd
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-xjbahd sitelibdir\=./.gem.20250630-66391-xjbahd install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250630-66391-xjbahd/racc
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-xjbahd sitelibdir\=./.gem.20250630-66391-xjbahd clean

@@ -1,0 +1,18 @@
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/erb-4.0.4/ext/erb/escape
+/home/vadak/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-kceddg sitelibdir\=./.gem.20250630-66391-kceddg clean
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-kceddg sitelibdir\=./.gem.20250630-66391-kceddg
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-kceddg sitelibdir\=./.gem.20250630-66391-kceddg install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20250630-66391-kceddg/erb
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/erb-4.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-kceddg sitelibdir\=./.gem.20250630-66391-kceddg clean

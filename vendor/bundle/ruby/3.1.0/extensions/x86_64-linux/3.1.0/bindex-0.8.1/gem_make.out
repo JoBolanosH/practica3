@@ -1,0 +1,18 @@
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/home/vadak/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-jzu4uo sitelibdir\=./.gem.20250630-66391-jzu4uo clean
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-jzu4uo sitelibdir\=./.gem.20250630-66391-jzu4uo
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-jzu4uo sitelibdir\=./.gem.20250630-66391-jzu4uo install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20250630-66391-jzu4uo/skiptrace/internal
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-jzu4uo sitelibdir\=./.gem.20250630-66391-jzu4uo clean

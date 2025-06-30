@@ -1,0 +1,18 @@
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/home/vadak/.rbenv/versions/3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-rse1qs sitelibdir\=./.gem.20250630-66391-rse1qs clean
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-rse1qs sitelibdir\=./.gem.20250630-66391-rse1qs
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-rse1qs sitelibdir\=./.gem.20250630-66391-rse1qs install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20250630-66391-rse1qs
+
+current directory: /home/vadak/Desktop/Stuff/_bisoft/Cuatrimentre_Actual/RubyOnRails/blogify/blogify/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250630-66391-rse1qs sitelibdir\=./.gem.20250630-66391-rse1qs clean
