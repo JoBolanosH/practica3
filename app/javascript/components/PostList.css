@@ -1,0 +1,14 @@
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/bg.svg');
+    background-size: cover;
+}

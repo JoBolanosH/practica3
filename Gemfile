@@ -62,3 +62,5 @@ end
 gem "shakapacker", "= 8.3"
 
 gem "react_on_rails", "= 14.0.4"
+
+gem 'dotenv', groups: [:development, :test]
