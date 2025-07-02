@@ -9,6 +9,8 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Notyf } from 'notyf';
 import 'notyf/notyf.min.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 const axios = require('axios').default;
 
@@ -19,6 +21,8 @@ const axios = require('axios').default;
 // }
 
 const notyf = new Notyf();
+
+AOS.init()
 
 const PostList = () => {
     const [posts, setPosts] = useState([]);
@@ -83,7 +87,7 @@ const PostList = () => {
                     <img src={Logo} className="logo" alt="Logo" style={{width: "300px"}}/>
                 </div>
                 <div className={"centered shadow-sm p-3 mb-5 bg-white rounded"}>
-                    <div className="row d-flex justify-content-center">
+                    <div className="row d-flex justify-content-center" data-aos="zoom-in">
                         <div className="col-lg-6 col-sm-12 d-flex justify-content-center">
                             <PostForm onClick={callPost}/>
                         </div>
