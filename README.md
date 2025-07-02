@@ -9,8 +9,8 @@ Proyecto Ruby on Rails con React y PostgreSQL.
 - Node.js y npm
 - PostgreSQL
 - Overmind (para manejo de procesos)
-- Bundler (`gem install bundler`)
-- Shakapacker (`bundle exec rails webpacker:install` si aplica)
+- Bundler
+- Shakapacker
 
 ---
 
@@ -28,7 +28,7 @@ bundle install
 npm install
 ```
 
-3. Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
+3. Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido o modifica los valores directamente en /config/database.yml:
 
 ```
 BLOGIFY_DB_NAME=<database_name>
@@ -65,20 +65,6 @@ rails db:migrate
 ```bash
 overmind start -f Procfile.dev
 ```
-
----
-
-## Notas
-
-- Asegúrate de tener Overmind instalado. Puedes instalarlo con:
-
-```bash
-brew install overmind     # macOS
-# o
-go install github.com/DarthSim/overmind@latest  # Linux
-```
-
-- El archivo `Procfile.dev` debe estar correctamente configurado para levantar el servidor Rails, el dev server de JavaScript y cualquier otro proceso necesario.
 
 ---
 
