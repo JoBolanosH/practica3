@@ -15,15 +15,15 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  username: <%= ENV['BLOGIFY_DB_USERNAME'] %>
+  password: <%= ENV['BLOGIFY_DB_PASSWORD'] %>
+  host: <%= ENV['BLOGIFY_DB_HOST'] %>
+  port: <%= ENV['BLOGIFY_DB_PORT'] %>
   pool: <%= ENV['RAILS_MAX_THREADS'] { 5 } %>
 
 development:
   <<: *default
   database: <%= ENV['BLOGIFY_DB_NAME'] %>
-  username: <%= ENV['BLOGIFY_DB_USERNAME'] %>
-  password: <%= ENV['BLOGIFY_DB_PASSWORD'] %>
-  host: <%= ENV['BLOGIFY_DB_HOST'] %>
-  port: <%= ENV['BLOGIFY_DB_PORT'] %>
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
